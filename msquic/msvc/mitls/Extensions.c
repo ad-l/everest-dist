@@ -3659,7 +3659,7 @@ Extensions_parseExtension(Extensions_ext_msg mt, FStar_Bytes_bytes b)
             KRML_HOST_EXIT(255U);
           }
         }
-      else if (scrut0.fst == (uint8_t)0x00U && scrut0.snd == (uint8_t)0x10U)
+      else if (0 && scrut0.fst == (uint8_t)0x00U && scrut0.snd == (uint8_t)0x10U)
         if
         (
           Prims_op_LessThan(FStar_UInt32_v(FStar_Bytes_len(data)),
